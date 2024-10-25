@@ -1,4 +1,1 @@
-var searchData=
-[
-  ['list_0',['Deprecated List',['../deprecated.html',1,'']]]
-];
+var searchData=[["list_0",["Deprecated List",["../deprecated.html",1,""]]]];

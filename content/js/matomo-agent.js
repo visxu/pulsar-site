@@ -1,13 +1,1 @@
-var _paq = window._paq = window._paq || [];
-/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-/* We explicitly disable cookie tracking to avoid privacy issues */
-_paq.push(['disableCookies']);
-_paq.push(['trackPageView']);
-_paq.push(['enableLinkTracking']);
-(function() {
-  var u="https://analytics.apache.org/";
-  _paq.push(['setTrackerUrl', u+'matomo.php']);
-  _paq.push(['setSiteId', '32']);
-  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-  g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-})();
+var _paq=window._paq=window._paq||[];_paq.push(["disableCookies"]),_paq.push(["trackPageView"]),_paq.push(["enableLinkTracking"]),function(){var a="https://analytics.apache.org/";_paq.push(["setTrackerUrl",a+"matomo.php"]),_paq.push(["setSiteId","32"]);var e=document,p=e.createElement("script"),t=e.getElementsByTagName("script")[0];p.async=!0,p.src=a+"matomo.js",t.parentNode.insertBefore(p,t)}();
